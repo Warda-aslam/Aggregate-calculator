@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut Icon" type="image/x-icon" href="calculator--v2.png">
+    <script src="Script.js"></script>
+    <link rel="stylesheet" href="Styles.css">
+    <title>Aggregate Calculator</title>
+</head>
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body align="center">
+    <div class="box">
+    <h1>Calculate Your ECAT Aggregate Here <img src="calculator.png" alt="" width="40px"> </h1>
+    
+    <div class="container">
+        <label for="text"> Matric Obtained Marks </label>
+        <input id="mat" type="number" >
+        <label for="text"> Total Matric Marks</label>
+        <input id="fmat" type="number">
+        <label for="text">Fsc Obtained Marks</label>
+        <input id="fsc" type="number">
+        <label for="text">Total Fsc Marks</label>
+        <input  id="ffsc" type="number">
+        <label for="text">ECAT Obtained Marks</label>
+        <input id="ec" type="number">
+        <label for="text">Total ECAT Marks</label>
+        <input  id="fec" type="number">
+    </div>
+    <button Onclick="{calculate()}" class="btn" > Calculate </button>
+</div>
+    <h2 id="calcagg"> Your Calculated Aggregate is</h2>
+</body>
+
+</html>
