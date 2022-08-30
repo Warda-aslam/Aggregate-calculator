@@ -68,3 +68,61 @@ button:hover{
     height: 35px;
     transition: 1s;
 }
+@media(max-width:600px){
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+    
+    } .box{
+        max-width: 250px;
+        border: 2px solid rgb(3, 119, 128);
+        border-radius: 12px;
+        background-color:rgb(2, 29, 31) ;
+    }
+    h2{
+        color: white;
+        font-size: 25px;
+        font-family: 'Aboreto', cursive;
+    }
+    h1{
+        color: white;
+        font-size: 27px;
+    }
+    input {
+        margin: 3px 0px;
+        height: 20px;
+        width: 200px;
+        text-align: center;
+        border-radius: 12px;
+        background: transparent ;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        
+    }
+    .btn{
+        width: 80px;
+        height: 20px;
+        margin-top: 8px;
+        background-color: rgba(23, 49, 41, 0.829);
+        cursor: pointer;
+        color: white;
+        border-color: white;
+        font-size: 13px;
+        height: 25px;
+    }
+    button:hover{
+        background: darkslategrey;
+        color: white;
+        width: 85px;
+        border-radius: 20px;
+        height: 25px;
+        transition: 1s;
+    }
+    label {
+        font-size: 17px;
+    }
+
+}
